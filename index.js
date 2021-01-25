@@ -86,7 +86,6 @@ function init() {
         .then(function(data){
             writeToFile("README.md", generateMarkdown(data));
             console.log(data);
-
         })
 }
 

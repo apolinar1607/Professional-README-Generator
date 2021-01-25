@@ -1,22 +1,23 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+/*This function returns a license badge based on which license is passed in
+  If there is no license, return an empty string*/
 function renderLicenseBadge(license) {
+  let licenseTxt = "";
   if (license == "MIT") {
-    licTxt = "https://img.shields.io/badge/license-MIT-green"
+    licenseTxt = "https://img.shields.io/badge/license-MIT-green"
   }
   else if (license == "Apache") {
-    licTxt = "https://img.shields.io/badge/license-Apache-blue"
+    licenseTxt = "https://img.shields.io/badge/license-Apache-blue"
   }
   else if (license == "GPL") {
-    licTxt = "https://img.shields.io/badge/license-GPL-blue"
+    licenseTxt = "https://img.shields.io/badge/license-GPL-blue"
   }
   else if (license == "BSD") {
-    licTxt = "https://img.shields.io/badge/license-BSD-green"
+    licenseTxt = "https://img.shields.io/badge/license-BSD-green"
   }
   else {
-    licTxt = "";
+    licenseTxt = "";
   }
-  return licTxt;
+  return licenseTxt;
 }
 
 // TODO: Create a function that returns the license link
@@ -31,7 +32,7 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.projectTitle}
 
-  [Github license](https://img.shields.io/badge/license-Apache-green)
+  ![](${renderLicenseBadge(data.license)})
 
   ## Description 
   
