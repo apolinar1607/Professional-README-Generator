@@ -1,32 +1,50 @@
 /*This function returns a license badge based on which license is passed in
-  If there is no license, return an empty string*/
+  If there is no license, an empty string will be returned.*/
 function renderLicenseBadge(license) {
   let licenseTxt = "";
   if (license == "MIT") {
-    licenseTxt = "https://img.shields.io/badge/license-MIT-green"
+    licenseBadge = "https://img.shields.io/badge/license-MIT-green"
   }
   else if (license == "Apache") {
-    licenseTxt = "https://img.shields.io/badge/license-Apache-blue"
+    licenseBadge = "https://img.shields.io/badge/license-Apache-blue"
   }
-  else if (license == "GPL") {
-    licenseTxt = "https://img.shields.io/badge/license-GPL-blue"
-  }
-  else if (license == "BSD") {
-    licenseTxt = "https://img.shields.io/badge/license-BSD-green"
+  else if (license == "GNU") {
+    licenseBadge = "https://img.shields.io/badge/license-GNU-blue"
   }
   else {
-    licenseTxt = "";
+    licenseBadge = "";
   }
-  return licenseTxt;
+  return licenseBadge;
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+/*This fuunction returns the license link
+ If there is no license, an empty string will be returned*/
+function renderLicenseLink(license) {
+if (license == "MIT"){
+  licenseLink = "./utils/license-MIT";
+  }
+else if (license == "Apache") {
+  licenseLink = "./utils/license-Apache";
+  }
+else if (license == "GNU") {
+  licenseLink = "./utils/license-GNU";
+  }
+else {
+  licenseLink = "";
+  }
+return licenseLink;
+}
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+/*This function returns the license section of README
+ If there is no license, an empty string will be returned.*/
+function renderLicenseSection(license) {
+    if (license != "N/A"){
+    return `Licensed by : [${license}](${renderLicenseLink(license)})`;
+    }
+    else {
+      return "Not Applicable";
+    }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -61,8 +79,7 @@ function generateMarkdown(data) {
   
   ## License
   
-  ${data.license}
-  
+  ${renderLicenseSection(data.license)}
   
   
   ## Contributing
@@ -76,11 +93,17 @@ function generateMarkdown(data) {
 
   ## Questions
   
-  
-  
-  ---
-  © 2021 amagtanong@gmail.com . All Rights Reserved.
+  Github Username: 
+  [${data.userGithub}](https://github.com/${data.userGithub})
 
+  Please send me an email if you have any question(s): 
+  ${data.emailAddress}
+  
+  
+
+
+  ---
+  © 2021 JM Automation . All Rights Reserved.
 
 `;
 }

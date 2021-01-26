@@ -1,6 +1,6 @@
 # a
 
-  ![]()
+  ![](https://img.shields.io/badge/license-MIT-green)
 
   ## Description 
   
@@ -24,13 +24,12 @@
   
   ## Usage 
   
-  a 
+  Walkthru video could be found in this link: https://drive.google.com/file/d/1PSd8ft3yDqOzJOl-EoRDGLxt8XlPqGHj/view?usp=sharing 
   
   
   ## License
   
-  N/A
-  
+  Licensed by : [MIT](./utils/license-MIT)
   
   
   ## Contributing
@@ -44,9 +43,15 @@
 
   ## Questions
   
-  
-  
-  ---
-  © 2021 amagtanong@gmail.com . All Rights Reserved.
+  Github Username: 
+  [apolinar1607](https://github.com/apolinar1607)
 
+  Please send me an email if you have any question(s): 
+  apolinar.magtanong@gmail.com
+  
+  
+
+
+  ---
+  © 2021 JM Automation . All Rights Reserved.
 
