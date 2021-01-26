@@ -4,7 +4,7 @@
 
   ## Description 
   
-  This application is a high quality README generator
+  This application is a high quality README Generator
   
   
   ## Table of Contents
@@ -19,12 +19,12 @@
   
   ## Installation
   
-  To built this application, I need to install npm inquirer package.
+  To built this application, I installed npm inquirer package.
   
   
   ## Usage 
   
-  A walkthrough video is generated and could be seen in the following link:  
+  A walkthrough is created and could be seen in this link: https://drive.google.com/file/d/1ZYHU5vso3upIcBoUtan37lv7tc9LUwMW/view?usp=sharing 
   
   
   ## License
@@ -34,11 +34,11 @@
   
   ## Contributing
   
-  To contribute, clone the repo, work on it, and issue a pull request.
+  To contribute, clone the repo, work on it, and create a pull request.
   
   ## Tests
   
-  node index.js
+  Type node index.js in the terminal
 
 
   ## Questions
