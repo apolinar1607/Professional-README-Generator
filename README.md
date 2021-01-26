@@ -1,10 +1,10 @@
-# a
+# Professional-README-Generator
 
-  ![](https://img.shields.io/badge/license-MIT-green)
+  ![](https://img.shields.io/badge/license-GNU-blue)
 
   ## Description 
   
-  a
+  This application is a high quality README generator
   
   
   ## Table of Contents
@@ -19,26 +19,26 @@
   
   ## Installation
   
-  a
+  To built this application, I need to install npm inquirer package.
   
   
   ## Usage 
   
-  Walkthru video could be found in this link: https://drive.google.com/file/d/1PSd8ft3yDqOzJOl-EoRDGLxt8XlPqGHj/view?usp=sharing 
+  A walkthrough video is generated and could be seen in the following link:  
   
   
   ## License
   
-  Licensed by : [MIT](./utils/license-MIT)
+  Licensed by : [GNU](./utils/license-GNU)
   
   
   ## Contributing
   
-  a
+  To contribute, clone the repo, work on it, and issue a pull request.
   
   ## Tests
   
-  a
+  node index.js
 
 
   ## Questions
