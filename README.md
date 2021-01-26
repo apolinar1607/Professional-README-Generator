@@ -1,10 +1,10 @@
 # Professional-README-Generator
 
-  ![](https://img.shields.io/badge/license-GNU-blue)
+  ![](https://img.shields.io/badge/license-Apache-blue)
 
   ## Description 
   
-  This application is a high quality README Generator
+  This application is a high quality README generator
   
   
   ## Table of Contents
@@ -24,21 +24,21 @@
   
   ## Usage 
   
-  A walkthrough is created and could be seen in this link: https://drive.google.com/file/d/1ZYHU5vso3upIcBoUtan37lv7tc9LUwMW/view?usp=sharing 
+  A walkthrough is saved and could be seen in the following link: google.drive.com 
   
   
   ## License
   
-  Licensed by : [GNU](./utils/license-GNU)
+  Licensed by : [Apache](./utils/license-Apache)
   
   
   ## Contributing
   
-  To contribute, clone the repo, work on it, and create a pull request.
+  To contribute, clone the repo, work on it, and create a pull request
   
   ## Tests
   
-  Type node index.js in the terminal
+  Simply type node index.js in the terminal
 
 
   ## Questions
